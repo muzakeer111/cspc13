@@ -1,0 +1,140 @@
+.header:hover{
+    color: aliceblue;
+}
+
+.navbar-brand{
+    color:rgb(239, 137, 152);
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+    background: url('images/page-title-layer.png');
+    border-radius: 15px;
+    background-position: 8%;
+}
+.navbar-brand:hover{
+    color: rgb(220, 144, 30);
+}
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+.navbar-toggler{
+    background-color: aliceblue;
+}
+.nav-link{
+    color: rgb(90, 188, 226);
+}
+.nav-link:hover{
+    color:#fff;
+}
+.navbar-nav{
+    font-size: 18px;
+}
+
+.header{ 
+    width: 100%;
+    background: url('images/internet.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.hero{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    color:black;
+    font-family: 'Kaushan Script', cursive;
+}
+.title{
+    position: relative;
+    top: 30%;
+    color: rgb(75, 50, 68);
+}
+.layer{
+    height:20vh;
+    background: url('images/page-title-layer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 19%;
+}
+.serv-head{
+    font-family: 'Kaushan Script', cursive;
+}
+.row .image img{
+    width:80%;
+    margin-bottom: 3px;
+}
+.row .image .grp{
+    margin-bottom: 0px;
+    height: 90%;
+}
+.organ{
+    text-align: start;
+}
+
+.left{
+    height:400px;
+    background: url('./gallery/organic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.layer2{
+    height:20vh;
+    background: url('images/page-title-layer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    top: 68px;
+}
+.footer{
+    height:auto;
+    background-color:darkolivegreen;
+    padding:60px 0px 20px 0px;
+}
+.foot{
+    background-color:darkolivegreen;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:576px){
+    
+    .container-fluid{
+        position: relative;
+    }
+
+    .container-fluid button{
+        position: absolute;
+       right:-5px;
+        top:5px;
+    }
+    
+    .row>.col-sm-12{
+        margin-bottom: 15px;
+    }
+    .row>.col-sm-6{
+        width:50%;
+    }
+    .bt{
+        margin-bottom: 20px;
+    }
+    .hero{
+        
+        color: white;
+        text-align: center;
+    }
+    
+    
+    .layer2{
+        height: 10vh;
+        top: 30px;
+    }
+   .layer{
+       height: 10vh;
+       bottom:110px;
+}
+   
+
+}

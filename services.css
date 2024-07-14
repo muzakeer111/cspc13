@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background:url('images/day-care-hero-blobs-background.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nav a{
+    text-decoration: none;
+   
+    color: darkgreen;
+}
+
+.nav a:hover{
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgba(146, 222, 120, 0.4);
+    color:rgb(160, 189, 53);
+}
+.contact a:hover{
+    color:green;
+    background-color: yellowgreen;
+}
+.gap{
+    gap: 3rem;
+}
+.points span{
+    text-decoration: underline;
+}
+.serv-1{
+    padding-left: 0;
+    padding-right: 0;
+}
+.steps{
+    background-color:#9FE2BF;
+    height:auto;
+}
+.foot{
+    background-color: #9FE2BF;
+}
+
+
+@media(max-width:570px){
+     .btn-success{
+        display: none;
+     }
+     body{
+        background: none;
+     }
+
+    .gap{
+        gap: 0;
+    }
+    .container-sm .image img,.container .image img{
+        padding:10px;
+        border-radius: 20px;
+        width:100%;
+        
+    }
+}
+@media(min-width:570px) and (max-width:1050px){ 
+    .container-sm .image img,.container .image img{
+        padding:10px;
+        border-radius: 20px;
+        width:100%;
+    }
+}
